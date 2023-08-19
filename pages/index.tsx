@@ -1,5 +1,9 @@
+import BaseLayout from "@/components/layout/BaseLayout";
+
 export default function Home() {
     return (
-    <div>Some output on the screen</div>
+        <BaseLayout>
+            <div>Some output on the screen</div>
+        </BaseLayout>
     )
 }
